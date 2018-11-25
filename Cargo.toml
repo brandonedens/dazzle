@@ -5,3 +5,10 @@ authors = ["Brandon Edens <brandonedens@gmail.com>"]
 edition = "2018"
 
 [dependencies]
+fuse_mt = "0.4.4"
+libc = "0.2.44"
+log = "0.4.6"
+time = "0.1.40"
+fern = { version = "0.5.7", features = ["colored"] }
+chrono = "0.4.6"
+ditto = "0.2.0"
